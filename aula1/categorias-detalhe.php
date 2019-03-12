@@ -13,8 +13,8 @@
     <dt>Produtos</dt>
     <dd>
         <ul>
-            <li><a href="/produtos-editar.php">Senhor dos Aneis</a></li>
-            <li><a href="/produtos-editar.php">O Guia do Mochileiro das Galáxias</a></li>
+            <li><a href="produtos-editar.php">Senhor dos Aneis</a></li>
+            <li><a href="produtos-editar.php">O Guia do Mochileiro das Galáxias</a></li>
         </ul>
     </dd>
 </dl>
