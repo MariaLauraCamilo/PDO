@@ -1,12 +1,12 @@
 <?php
-require_once 'classes/Categoria.php';
-
-    $categoria = new Categoria();
+require_once 'global.php';
+try {
     $id = $_GET['id'];
-    $categoria->id = $id;
-    $resultado = $categoria->carregar();
+    $categoria = new Categoria();
+} catch (Exception $e){
 
-
+    Erro::trataErro($e);
+}
 require_once 'cabecalho.php' ?>
 <div class="row">
     <div class="col-md-12">
